@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "danfojs-node": "^0.2.6",
-    "info-rut": "^5.0.4"
+    "info-rut": "^5.0.4",
+    "string-similarity": "^4.0.4"
   }
 }
