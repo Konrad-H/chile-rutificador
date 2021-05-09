@@ -69,10 +69,7 @@ function storeDicts(dict_p,dict_b,dict_e,i){
                     'dict_b' : dict_b,
                     'dict_e' : dict_e
     }
-    storeData(dict_p, './assets/dicts/data_donantes_'+i+'.json')
-    dict_p = {}
-    dict_b = {}
-    dict_e = {}
+    storeData(dict_all, './assets/dicts/data_donantes_'+i+'.json')
 }
 
 async function main(){
